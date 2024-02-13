@@ -1,0 +1,530 @@
+body{
+    background-color: #ebc8c0;
+    color: #ff5873;
+    font-family: "Lovers Quarrel", cursive !important;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ocontainer{
+    width: 100%;
+    text-align: center;
+}
+
+.allin{
+    position: relative;
+}
+
+
+.title1{
+  font-family: "Lovers Quarrel", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  padding-top: 0.5em;
+  padding-bottom:1em;
+}
+
+.letter{
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+}
+
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  .slider-wrapper11 img{
+    height: 300px;
+    width: auto;
+}
+
+
+  .slider11 {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ff5873;
+    margin-bottom: 2em;
+  }
+  
+  .slider11:before {
+    left: 0;
+    background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.452)
+    );
+  }
+  
+  .slider11:after {
+    right: 0;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.445)
+    );
+  }
+  
+  .slider-wrapper11 {
+    display: inline-block;
+    animation: 25s slide infinite linear;
+    background-color: #ff5873;
+  }
+  
+  .slider-wrapper11 > img {
+    margin-top: 7px;
+    height: 150px;
+    max-width: 250px;
+  }
+
+
+  * {
+
+    padding: 0;
+ 
+    margin: 0;
+ 
+    box-sizing: border-box;
+ 
+    transition: .4s ease-in-out;
+ 
+  }
+ 
+  body {
+ font-family: Rubik, sans-serif;
+    background: #FFE4EF;
+ 
+    width: 100%;
+ 
+    height: 100vh;
+ 
+    -webkit-tap-highlight-color: transparent;
+ 
+    transition: .4s ease-in-out;
+ 
+  }
+ 
+  button {
+ 
+    margin: 10px;
+ 
+    height: 50px;
+ 
+    width: 70px;
+ 
+    font-size: 16px;
+ 
+    border: none;
+ 
+    border-radius: 10px;
+ 
+    cursor: pointer;
+ 
+    transition: .4s ease-in-out;
+ 
+  }
+ 
+  #yes:active {
+ 
+    background: #632D5D;
+ 
+  }
+ 
+  #no:active {
+ 
+    background: #310E25;
+ 
+  }
+ 
+  .containar {
+ 
+    width: 100%;
+ 
+    height: 100vh;
+ 
+    justify-content: center;
+ 
+    display: flex;
+ 
+    align-items: center;
+ 
+  }
+ 
+  #yes {
+ 
+    background-color: #fee6e3;
+    border: solid black;
+ 
+    color: #ff5873;
+    font-family: "Lovers Quarrel", cursive !important;
+    font-weight: 600;
+    font-style: normal;
+ 
+  }
+ 
+  #no {
+ 
+    background-color:#6a4e70;
+    border: solid black;
+ 
+    color: #ff5873;
+    font-family: "Lovers Quarrel", cursive !important;
+    font-weight: 600;
+    font-style: normal;
+ 
+  }
+ 
+  #yay {
+ 
+    display: none;
+ 
+    /* مخفي عند البداية */
+ 
+    position: absolute;
+ 
+    margin-top: -100px;
+ 
+    font-weight: 900;
+ 
+    font-size: 2em;
+ 
+  }
+
+  #notext {
+ 
+    display: none;
+ 
+    /* مخفي عند البداية */
+ 
+    position: absolute;
+ 
+    margin-top: -100px;
+ 
+    font-weight: 900;
+ 
+    font-size: 2em;
+ 
+  }
+ 
+  #yay1 {
+ 
+    display: none;
+ 
+    width: 160px;
+ 
+    position: absolute;
+ 
+    margin-top: -250px;
+
+ 
+  }
+
+  #no1 {
+ 
+    display: none;
+ 
+    width: 160px;
+ 
+    position: absolute;
+ 
+    margin-top: -250px;
+
+ 
+  }
+ 
+  #can1 {
+ 
+    width: 100px;
+ 
+    position: absolute;
+ 
+    margin-top: -250px;
+ 
+    display: block;
+ 
+  }
+ 
+  #can {
+ 
+    position: absolute;
+ 
+    margin-top: -100px;
+ 
+    font-weight: 600;
+ 
+    display: block;
+
+    font-size: 2em;
+ 
+  }
+ 
+ img:active {
+ 
+     transform: scale3d(1.2,1.2,1.2);
+ 
+ }
+ 
+ img{
+   transition: .4s ease-in-out;
+ }
+
+
+
+ 
+ /* CSS */
+ .button-56 {
+   align-items: center;
+   background-color: #fee6e3;
+   border: 2px solid #111;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #ff5873;
+   cursor: pointer;
+   display: flex;
+   height: 48px;
+   justify-content: center;
+   line-height: 24px;
+   max-width: 100%;
+   padding: 0 25px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   font-family: "Lovers Quarrel", cursive;
+   font-weight: 600;
+   font-size: 2em;
+   font-style: normal;
+   width: 60%;
+   position: absolute;
+   left:20dvw ;
+ }
+ 
+ .button-56:after {
+   background-color: #111;
+   border-radius: 8px;
+   content: "";
+   display: block;
+   height: 48px;
+   left: 0;
+   width: 100%;
+   position: absolute;
+   top: -2px;
+   transform: translate(8px, 8px);
+   transition: transform .2s ease-out;
+   z-index: -1;
+ }
+ 
+ .button-56:hover:after {
+   transform: translate(0, 0);
+ }
+ 
+ .button-56:active {
+   background-color: #ffdeda;
+   outline: 0;
+ }
+ 
+ .button-56:hover {
+   outline: 0;
+ }
+ 
+ @media (min-width: 768px) {
+   .button-56 {
+     padding: 0 40px;
+   }
+ }
+
+
+ @media (min-width: 450px) {
+    .title1{
+        font-size: 6em;
+    }
+
+    .slider-wrapper11 img{
+        height: auto;
+        width: 12em;
+    }
+
+    .letter{
+        font-size: 3.7em;
+        padding-left: 3em;
+        padding-top: 3em;
+        padding-right: 3em;
+    }
+
+    .button-56 {
+        align-items: center;
+        background-color: #fee6e3;
+        border: 3px solid #111;
+        border-radius: 8px;
+        box-sizing: border-box;
+        color: #ff5873;
+        cursor: pointer;
+        display: flex;
+        height: 77px;
+        justify-content: center;
+        line-height: 36px;
+        max-width: 150%;
+        padding: 0 37.5px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        font-family: "Lovers Quarrel", cursive;
+        font-weight: 600;
+        font-size: 4.5em;
+        font-style: normal;
+        width: 60%;
+        position: absolute;
+        left:20dvw ;
+      }
+      
+      .button-56:after {
+        background-color: #111;
+        border-radius: 8px;
+        content: "";
+        display: block;
+        height: 77px;
+        left: 0;
+        width: 100%;
+        position: absolute;
+        top: -3px;
+        transform: translate(8px, 8px);
+        transition: transform .2s ease-out;
+        z-index: -1;
+      }
+      
+      .button-56:hover:after {
+        transform: translate(0, 0);
+      }
+      
+      .button-56:active {
+        background-color: #ffdeda;
+        outline: 0;
+      }
+      
+      .button-56:hover {
+        outline: 0;
+      }
+
+      #yay1 {
+ 
+        display: none;
+     
+        width: 300px;
+     
+        position: absolute;
+     
+        margin-top: -250px;
+    
+     
+      }
+    
+      #no1 {
+     
+        display: none;
+     
+        width: 250px;
+     
+        position: absolute;
+     
+        margin-top: -250px;
+    
+     
+      }
+     
+      #can1 {
+     
+        width: 200px;
+     
+        position: absolute;
+     
+        margin-top: -250px;
+     
+        display: block;
+     
+      }
+
+      #yay {
+ 
+        display: none;
+     
+        /* مخفي عند البداية */
+     
+        position: absolute;
+     
+        margin-top: 1em;
+     
+        font-weight: 900;
+     
+        font-size: 4em;
+     
+      }
+    
+      #notext {
+     
+        display: none;
+     
+        /* مخفي عند البداية */
+     
+        position: absolute;
+     
+        margin-top: 1em;
+     
+        font-weight: 900;
+     
+        font-size: 4em;
+     
+      }
+
+      #can {
+ 
+        position: absolute;
+     
+        margin-top: 1em;
+     
+        font-weight: 600;
+     
+        display: block;
+    
+        font-size: 4em;
+     
+      }
+
+      #yes {
+ 
+
+        width: 12em;
+
+        margin-top: 15em;
+
+        font-size: 2em;
+        
+     
+      }
+     
+      #no {
+     
+        width: 12em;
+        margin-top: 15em;
+        font-size: 2em;
+ }
+}
